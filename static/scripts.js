@@ -66,6 +66,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     for (const price of stockPrices) {
       console.log(`Timestamp: ${new Date(price.timestamp).toLocaleString()}, Value: \$${price.value}`);
     }
-    drawChart(stocks[stock]);
   }
 });
